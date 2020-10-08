@@ -37,7 +37,7 @@ body {
 }
 
 .hero {
-    height: 410px;
+    height: 510px;
     width: 100%;
     background-image: linear-gradient(130deg, #0700dd 0%, #00f2ff 100%);
 }
@@ -46,25 +46,15 @@ body {
     height: inherit;
     width: inherit;
     background-image: url('images/image-overlay.png');
-    background-position: center;
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.15;
 }
-.hero h1 {
-    text-align: center;
-    margin-top: 300px;
-    font-size: 50px;
-    color: #fff;
-    width: 480px;
-    margin-left: auto;
-    margin-right: auto;
-    font-weight: 300;
-}
 
 .hero-box {
     text-align: center;
-    margin-top: -250px;
+    margin-top: -350px;
     font-size: 55px;
     color: #fff;
     width: 480px;
@@ -83,12 +73,200 @@ body {
     font-weight: 10;
 }
 .image-box {
-    background-image: url('images/Website-Ideas-1024x675-banner.png');
+    width: 100%;
+    height: 650px;
+}
+
+.image-type {
+    height: 400px;
+    width: 600px;
+    background-image: url('images/Website-Ideas.png');
     background-size: cover;
-    width: 700px;
+    background-repeat: no-repeat;
     margin-right: auto;
     margin-left: auto;
     border-radius: 20px;
-    margin-top: -100px;
-    align: center;
+    margin-top: -135px;
 }
+
+.post-body {
+    width: 620px;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.share-post {
+    margin-top: 1px solid #eee;
+    margin-bottom: 1px solid #eee;
+    margin-bottom: 40px;
+    padding: 32px 10px;
+    display: flex;
+    aligh-items: center;
+}
+
+.share-post h4 {
+    font-size: 20px;
+    margin: 0;
+    color: #4632da;
+    flex: 1;
+}
+
+.share-post ul {
+list-style: none;
+padding: 0px;
+margin: 0;
+
+}
+.share-post ul li{
+float: left;
+margin-right: 40px;
+font-size: 25px;
+color: #6d738a;
+}
+.share-post ul li:hover {
+    color: #4632da;
+    cursor: pointer;
+
+}
+.table-of-content {
+background-color:#f1f1f1;
+}
+
+.table-of-content .table-header {
+    background-color: #fcfcfc;
+    border: 2px solid #f1f1f1;
+    padding: 20px 14px;
+    display: flex; 
+}
+.table-of-content .table-header h4 {
+    margin: 0;
+    flex: 1;
+
+}
+
+.table-header h4 {
+    font-size: 30px;
+}
+
+
+.table-header li {
+    font-size: 20px;
+    margin-bottom: 10px;
+
+}
+.table-body { 
+    border: 2px solid #f1f1f1;
+    border-top: none;
+    padding-left: 15px 30px;
+    font-size: 18px;
+}
+
+.table-body ul {
+    margin: 0;
+
+}
+
+.table-body ul li {
+    margin-bottom: 20px;
+    font-size: 30px;
+
+}
+.table-body ul li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.get-content {
+padding: 20px 14px;
+font-size: 90%;
+}
+
+.get-content p {
+    font-size: 20px;
+}
+
+.with-background {
+    margin: 20px 36px;
+    padding: 20px 38px;
+    padding-top: 20px;
+    padding-right: 38px;
+    padding-bottom: 20px;
+    padding-left: 38px;
+}
+
+.menu-anchor {
+    font-weight: 700;
+}
+
+.menu-anchor h2 {
+    font-size: 30px;
+}
+
+.menu-anchor  h3 {
+    font-size: 30px;
+}
+
+.menu-anchor p {
+    font-size: 20px;
+}
+
+.block-image {
+    background-image: url("images/Website-Ideas-Travel-Blog.jpg");
+    height: 590px;
+    width: 576px;
+
+}
+
+.block-image-text p {
+    font-size: 20px;
+}
+
+.call-to-action-headline {
+    font-size: 20px;
+}
+
+.call_to_content_text {
+    font-size: 20px;
+}
+
+.button-container {
+    padding-left: 128px;
+}
+
+.btn {
+    border: 1px solid #fff;
+    border-radius: 30px;
+    background-color: blue;
+    color: white;
+    width: 250px;
+    height: 50px;
+    padding: 10px;
+    display: inline-block;
+    font-size: 15px;
+
+}
+
+.button-container button:hover {
+    background-color: skyblue;
+}
+
+.fashion-context {
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
